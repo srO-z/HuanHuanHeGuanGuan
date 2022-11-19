@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./IMG/4.ico" type="image/x-icon" />
+    <title>登录</title>
+    <style>
+        body {
+            background: url('./IMG/a1.gif') no-repeat;
+            background-size: 100% 130%;
+        }
+        
+        #login_box {
+            width: 300px;
+            height: 400px;
+            margin: auto;
+            margin-top: 10%;
+            text-align: center;
+            border-radius: 10px;
+            padding: 50px 50px;
+        }
+        
+        h2 {
+            color: #ffffff90;
+            margin-top: 5%;
+        }
+        
+        #input-box {
+            margin-top: 5%;
+        }
+        
+        input {
+            border: 0;
+            width: 70%;
+            font-size: 15px;
+            color: #fff;
+            background: transparent;
+            border-bottom: 2px solid #fff;
+            padding: 5px 10px;
+            outline: none;
+            margin-top: 10px;
+        }
+        
+        button {
+            margin-top: 50px;
+            width: 60%;
+            height: 30px;
+            border-radius: 10px;
+            border: 0;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            font-size: 15px;
+            background-image: linear-gradient(to right, #30cfd0, #330867);
+        }
+        
+        #sign_up {
+            margin-top: 45%;
+            margin-left: 60%;
+        }
+        
+        a {
+            color: #b94648;
+        }
+    </style>
+
+    <body>
+
+
+        <div id="login_box">
+
+            <div id="input_box">
+                <input type="text" id="account" placeholder=" 输入密码后点击屏幕任意处" onblur="checkAccount()" />
+            </div>
+
+            <script type="text/javascript">
+                function checkAccount() {
+                    //获取密码
+                    var account = document.getElementById("account").value;
+                    if (account == "12120302") {
+                        window.location.href = "./hhhgg.html"
+                    }
+                    if (account == "0302") {
+                        window.location.href = "./geRenJianJie.html"
+                    }
+                }
+            </script>
+
+
+    </body>
+
+    </htmls
